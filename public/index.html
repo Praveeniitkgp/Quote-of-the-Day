@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote of the Day</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quote of the Day</h1>
+    
+    <div id="quote-box" class="quote-box">
+      <blockquote id="quote">Fetching quote...</blockquote>
+      <cite id="author"></cite>
+    </div>
+
+    <h2 id="random-quote-heading" class="random-quote-heading">Get Random Quote</h2>
+
+    <div id="author-search" class="author-search">
+      <input type="text" id="author-name" placeholder="Search by author name" class="input-field">
+      <button id="search-btn" class="button secondary-button">Search</button>
+    </div>
+
+    <div id="search-results" class="search-results"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
